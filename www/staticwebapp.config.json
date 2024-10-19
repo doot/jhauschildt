@@ -1,6 +1,6 @@
 {
   "globalHeaders": {
-    "Strict-Transport-Security": "max-age: 31536000; includeSubdomains",
+    "Strict-Transport-Security": "max-age= 31536000; includeSubdomains",
     "Content-Security-Policy": "default-src https: ; frame-ancestors 'none';",
     "X-Frame-Options": "DENY"
   }
