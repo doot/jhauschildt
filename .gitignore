@@ -54,3 +54,12 @@ test/version_tmp
 .yardoc
 _yardoc
 
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
