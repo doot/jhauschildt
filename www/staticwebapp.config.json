@@ -1,4 +1,12 @@
 {
+  "routes": [
+    {
+      "route": "/.well-known/*",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    }
+  ],
   "globalHeaders": {
     "Strict-Transport-Security": "max-age=31536000; includeSubdomains",
     "X-Frame-Options": "DENY"
